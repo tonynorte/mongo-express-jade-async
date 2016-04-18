@@ -6,7 +6,7 @@ This is a basic project where it's easy understand how connect and import a basi
 
 ##Instructions
 
-Using the command promt digit this command: "npm install" to install all dependencies in the package.json, then use this path once you have installed the mongodb:
+Using the command promt and introduce this command: "npm install" to install all dependencies in the package.json, then use this path once you have installed the mongodb:
 
   "C:\Program Files\MongoDB\Server\3.2\bin"
 
