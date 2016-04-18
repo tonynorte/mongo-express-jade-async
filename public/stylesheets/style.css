@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 230px;
+}
+
+.bandlist {
+    width: 180px;
+}
+
+.bandlist li{
+    min-height: 38px;
+}
+
+.bandlist .image-link {
+    float: right;
+}
+
+.bandlist img {
+    width: 33px;
+}
+
+.hidden{
+	display: none;
+}

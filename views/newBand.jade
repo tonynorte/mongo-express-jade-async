@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= title
+    form#formAddRestaurant(name="addrestaurants",method="post",action="/band")
+        input#inputName(type="text", placeholder="name", name="name")
+        input#inputEmail(type="text", placeholder="mail", name="email")
+        button#btnSubmit(type="submit") New Band

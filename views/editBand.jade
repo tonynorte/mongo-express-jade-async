@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	div.wrapper
+		h1 Bands List
+		ul.bandlist
+			each band, i in bandlist
+				li
+					a(href="/update?id="+band._id)=band.name
+					a.image-link(href="/delete?id="+band._id)
+						image(src="images/delete.png" alt="delete")
+		#login
+		form#formAddRestaurant(name="band",method="get",action="/update")
+			input#inputName(type="text", value=oldBand.name, name="name")
+			input.hidden(type="text", value=oldBand._id, name="id")
+			button#btnSubmit(type="submit") submit
