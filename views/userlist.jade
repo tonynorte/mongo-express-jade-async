@@ -1,9 +1,0 @@
-extends layout
-
-block content
-    h1.
-        Restaurant List
-    ul
-        each rest, i in restlist
-            li
-                a(href="mailto:#{rest.email}")= rest.name
